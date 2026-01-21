@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { siteConfig } from "@/lib/data";
 import { Button } from "./ui/button";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Phone } from "lucide-react";
 import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
 
@@ -16,24 +16,13 @@ export function Header() {
     setIsOpen(false);
   }, [pathname]);
 
-  // Prevent scrolling when menu is open
-  useEffect(() => {
-    if (isOpen) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "unset";
-    }
-    return () => {
-      document.body.style.overflow = "unset";
-    };
-  }, [isOpen]);
-
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-accent/50 bg-background/95 backdrop-blur-md">
-      <div className="container mx-auto flex h-20 items-center justify-between px-4">
-        <Link href="/" className="flex flex-col group relative z-50">
+      <div className="container mx-auto flex h-20 items-center justify-between px-4 relative">
+        {/* Logo */}
+        <Link href="/" className="flex flex-col group z-50">
            <span className="font-display text-2xl font-bold tracking-tight text-secondary group-hover:text-primary transition-colors">
              {siteConfig.name}
            </span>
@@ -54,27 +43,35 @@ export function Header() {
           </Link>
         </nav>
         
-        {/* Mobile Toggle */}
-        <Button 
-          variant="ghost" 
-          className="md:hidden relative z-50" 
-          aria-label="Menu"
-          onClick={toggleMenu}
-        >
-          {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-        </Button>
+        {/* Mobile Actions (Phone + Toggle) */}
+        <div className="flex items-center gap-4 md:hidden z-50">
+          {/* Call Button (Always Visible) */}
+          <a href={`tel:${siteConfig.phone.replace(/ /g, '')}`} className="flex items-center justify-center w-10 h-10 rounded-full bg-primary/10 text-primary hover:bg-primary hover:text-white transition-colors">
+            <Phone className="h-5 w-5" />
+          </a>
 
-        {/* Mobile Menu Overlay */}
+          {/* Menu Toggle */}
+          <Button 
+            variant="ghost" 
+            className="p-2 h-10 w-10" 
+            aria-label="Menu"
+            onClick={toggleMenu}
+          >
+            {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+          </Button>
+        </div>
+
+        {/* Mobile Menu Dropdown (Push content down style) */}
         {isOpen && (
-          <div className="fixed inset-0 z-40 bg-background/98 backdrop-blur-xl flex flex-col justify-center items-center gap-8 md:hidden">
-            <nav className="flex flex-col items-center gap-8 text-xl font-display font-medium text-secondary">
-              <Link href="/" onClick={() => setIsOpen(false)} className="hover:text-primary transition-colors">Domov</Link>
-              <Link href="/o-meni" onClick={() => setIsOpen(false)} className="hover:text-primary transition-colors">O meni</Link>
-              <Link href="/storitve" onClick={() => setIsOpen(false)} className="hover:text-primary transition-colors">Storitve</Link>
-              <Link href="/galerija" onClick={() => setIsOpen(false)} className="hover:text-primary transition-colors">Galerija</Link>
-              <Link href="/blog" onClick={() => setIsOpen(false)} className="hover:text-primary transition-colors">Blog</Link>
-              <Link href={siteConfig.bookingUrl} target="_blank" onClick={() => setIsOpen(false)}>
-                <Button className="mt-4 px-12 h-12 text-lg">Naroči se</Button>
+          <div className="absolute top-full left-0 w-full bg-background border-b border-accent shadow-xl flex flex-col p-6 gap-6 md:hidden animate-in slide-in-from-top-2 duration-200">
+            <nav className="flex flex-col gap-4 text-center text-lg font-medium text-secondary">
+              <Link href="/" onClick={() => setIsOpen(false)} className="py-2 hover:text-primary border-b border-accent/20">Domov</Link>
+              <Link href="/o-meni" onClick={() => setIsOpen(false)} className="py-2 hover:text-primary border-b border-accent/20">O meni</Link>
+              <Link href="/storitve" onClick={() => setIsOpen(false)} className="py-2 hover:text-primary border-b border-accent/20">Storitve</Link>
+              <Link href="/galerija" onClick={() => setIsOpen(false)} className="py-2 hover:text-primary border-b border-accent/20">Galerija</Link>
+              <Link href="/blog" onClick={() => setIsOpen(false)} className="py-2 hover:text-primary border-b border-accent/20">Blog</Link>
+              <Link href={siteConfig.bookingUrl} target="_blank" onClick={() => setIsOpen(false)} className="pt-2">
+                <Button className="w-full h-12 text-base shadow-none">Naroči se</Button>
               </Link>
             </nav>
           </div>
