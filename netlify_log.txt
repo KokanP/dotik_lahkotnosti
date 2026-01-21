@@ -1,0 +1,124 @@
+2:52:24 PM: build-image version: efa9a2c8b92d443f700fd1ea32ecd88f75212cfc (noble-new-builds)
+2:52:24 PM: buildbot version: 8d0edf1d57efe8e54d6b6b12c54da32e6d71ab3b
+2:52:24 PM: Fetching cached dependencies
+2:52:24 PM: Failed to fetch cache, continuing with build
+2:52:24 PM: Starting to prepare the repo for build
+2:52:24 PM: No cached dependencies found. Cloning fresh repo
+2:52:24 PM: git clone --filter=blob:none https://github.com/KokanP/dotik_lahkotnosti
+2:52:24 PM: Preparing Git Reference refs/heads/master
+2:52:40 PM: Starting to install dependencies
+2:52:41 PM: mise ~/.config/mise/config.toml tools: python@3.14.2
+2:52:41 PM: mise ~/.config/mise/config.toml tools: ruby@3.4.8
+2:52:41 PM: mise ~/.config/mise/config.toml tools: go@1.25.6
+2:52:41 PM: v22.22.0 is already installed.
+2:52:42 PM: Now using node v22.22.0 (npm v10.9.4)
+2:52:42 PM: Enabling Node.js Corepack
+2:52:42 PM: Started restoring cached build plugins
+2:52:42 PM: Finished restoring cached build plugins
+2:52:42 PM: Started restoring cached corepack dependencies
+2:52:42 PM: Finished restoring cached corepack dependencies
+2:52:42 PM: No npm workspaces detected
+2:52:42 PM: Started restoring cached node modules
+2:52:42 PM: Finished restoring cached node modules
+2:52:42 PM: Installing npm packages using npm version 10.9.4
+2:52:53 PM: added 450 packages in 11s
+2:52:53 PM: npm packages installed
+2:52:53 PM: Successfully installed dependencies
+2:52:53 PM: Detected 1 framework(s)
+2:52:53 PM: "next" at version "16.1.4"
+2:52:53 PM: Starting build script
+2:52:54 PM: Section completed: initializing
+2:52:55 PM: ​
+2:52:55 PM: Netlify Build                                                 
+2:52:55 PM: ────────────────────────────────────────────────────────────────
+2:52:55 PM: ​
+2:52:55 PM: ❯ Version
+2:52:55 PM:   @netlify/build 35.5.10
+2:52:55 PM: ​
+2:52:55 PM: ❯ Flags
+2:52:55 PM:   accountId: 68c0913b5771a69bc255ee60
+2:52:55 PM:   baseRelDir: true
+2:52:55 PM:   buildId: 6970da166361ad6228d2c658
+2:52:55 PM:   deployId: 6970da166361ad6228d2c65a
+2:52:55 PM: ​
+2:52:55 PM: ❯ Current directory
+2:52:55 PM:   /opt/build/repo
+2:52:55 PM: ​
+2:52:55 PM: ❯ Config file
+2:52:55 PM:   No config file was defined: using default values.
+2:52:55 PM: ​
+2:52:55 PM: ❯ Context
+2:52:55 PM:   production
+2:52:56 PM: ​
+2:52:56 PM: ❯ Using Next.js Runtime - v5.15.5
+2:52:57 PM: No Next.js cache to restore
+2:52:57 PM: ​
+2:52:57 PM: Build command from Netlify app                                
+2:52:57 PM: ────────────────────────────────────────────────────────────────
+2:52:57 PM: ​
+2:52:57 PM: $ npm run build
+2:52:57 PM: > dotik-lahkotnosti@0.1.0 build
+2:52:57 PM: > next build
+2:52:58 PM: ⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+2:52:58 PM: ▲ Next.js 16.1.4 (Turbopack)
+2:52:58 PM:   Creating an optimized production build ...
+2:53:05 PM: ✓ Compiled successfully in 6.7s
+2:53:05 PM:   Running TypeScript ...
+2:53:08 PM:   Collecting page data using 2 workers ...
+2:53:08 PM:   Generating static pages using 2 workers (0/19) ...
+2:53:09 PM:   Generating static pages using 2 workers (4/19)
+2:53:09 PM:   Generating static pages using 2 workers (9/19)
+2:53:09 PM:   Generating static pages using 2 workers (14/19)
+2:53:09 PM: ✓ Generating static pages using 2 workers (19/19) in 444.4ms
+2:53:09 PM:   Finalizing page optimization ...
+2:53:09 PM: Route (app)
+2:53:09 PM: ┌ ○ /
+2:53:09 PM: ├ ○ /_not-found
+2:53:09 PM: ├ ○ /blog
+2:53:09 PM: ├ ● /blog/[slug]
+2:53:09 PM: │ ├ /blog/pomen-sprostitve
+2:53:09 PM: │ ├ /blog/kaj-je-reiki
+2:53:09 PM: │ ├ /blog/moc-dotika
+2:53:09 PM: │ └ [+7 more paths]
+2:53:09 PM: ├ ○ /galerija
+2:53:09 PM: ├ ○ /o-meni
+2:53:09 PM: ├ ○ /robots.txt
+2:53:09 PM: ├ ○ /sitemap.xml
+2:53:09 PM: └ ○ /storitve
+2:53:09 PM: ○  (Static)  prerendered as static content
+2:53:09 PM: ●  (SSG)     prerendered as static HTML (uses generateStaticParams)
+2:53:09 PM: ​
+2:53:09 PM: (build.command completed in 12.1s)
+2:53:09 PM: Next.js cache saved
+2:53:09 PM: ​
+2:53:09 PM: Plugin "@netlify/plugin-nextjs" failed                        
+2:53:09 PM: ────────────────────────────────────────────────────────────────
+2:53:09 PM: ​
+2:53:09 PM:   Error message
+2:53:09 PM:   Error: Failed assembling prerendered content for upload
+2:53:09 PM:   @netlify/plugin-nextjs@5 requires migration steps to support Netlify Forms. Refer to https://ntl.fyi/next-runtime-forms-migration for migration example.
+2:53:09 PM: ​
+2:53:09 PM:   Plugin details
+2:53:09 PM:   Package:        @netlify/plugin-nextjs
+2:53:09 PM:   Version:        5.15.5
+2:53:09 PM:   Repository:     git+https://github.com/opennextjs/opennextjs-netlify.git
+2:53:09 PM:   npm link:       https://www.npmjs.com/package/@netlify/plugin-nextjs
+2:53:09 PM:   Report issues:  https://github.com/opennextjs/opennextjs-netlify/issues
+2:53:09 PM: ​
+2:53:09 PM:   Error location
+2:53:09 PM:   In "onBuild" event in "@netlify/plugin-nextjs" from Netlify app
+2:53:09 PM: ​
+2:53:09 PM:   Resolved config
+2:53:09 PM:   build:
+2:53:09 PM:     command: npm run build
+2:53:09 PM:     commandOrigin: ui
+2:53:09 PM:     publish: /opt/build/repo/.next
+2:53:09 PM:     publishOrigin: ui
+2:53:09 PM:   plugins:
+2:53:09 PM:     - inputs: {}
+2:53:09 PM:       origin: ui
+2:53:09 PM:       package: "@netlify/plugin-nextjs"
+2:53:10 PM: Failed during stage 'building site': Build script returned non-zero exit code: 2 (https://ntl.fyi/exit-code-2)
+2:53:10 PM: Build failed due to a user error: Build script returned non-zero exit code: 2
+2:53:10 PM: Failing build: Failed to build site
+2:53:10 PM: Finished processing build request in 46.059s

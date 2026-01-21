@@ -24,7 +24,6 @@ export function ContactForm() {
     <form
       name="contact"
       method="POST"
-      data-netlify="true"
       onSubmit={handleSubmit}
       className="space-y-4 bg-white p-6 rounded-xl border border-accent shadow-sm"
     >
