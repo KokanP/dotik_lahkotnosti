@@ -1,0 +1,46 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --font-display: var(--font-playfair);
+  --font-body: var(--font-lato);
+
+  --color-primary: #C5A880;
+  --color-primary-dark: #A68A64;
+  --color-secondary: #8B7E74;
+  --color-background: #FDFCF8;
+  --color-text: #4A4A4A;
+  --color-accent: #EFEBE4;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-body);
+    @apply text-text bg-background;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    @apply font-bold text-secondary;
+  }
+}
+
+/* Ensure Lucide icons are visible */
+@layer utilities {
+  .lucide {
+    @apply stroke-2 w-5 h-5;
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .section-padding {
+    @apply py-12 md:py-16;
+  }
+  
+  .section-padding-sm {
+    @apply py-8 md:py-12;
+  }
+}
