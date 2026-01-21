@@ -20,7 +20,7 @@ export const galleryImages = [
   "/images/gallery/3.jpg",
   "/images/gallery/4.jpg",
   "/images/gallery/5.jpg",
-  "/images/gallery/6.jpg",
+  "/images/gallery/6-sedenje.jpg",
 ];
 
 export const bioData = {
@@ -498,8 +498,8 @@ Ker je metoda neinvazivna, je primerna za vse.
     title: "Bolečine v hrbtu zaradi sedenja? Rešitev obstaja.",
     excerpt: "Sodobni način življenja nas sili v dolgotrajno sedenje. Spoznajte anatomijo sedenja, preproste vaje za pisarno in kako vam lahko terapevtka masaža hrbta vrne gibljivost.",
     date: "2025-12-22",
-    featuredImage: "/images/gallery/6.jpg",
-    content: `Človeško telo je evolucijsko zasnovano za gibanje – za hojo, tek, plezanje. Danes pa povprečen človek presedi od 8 do 12 ur na dan (v službi, v avtu, pred TV). To je za našo hrbtenico ogromen šok. "Sedenje je novo kajenje" ni le fraza, ampak resno zdravstveno opozorilo.
+    featuredImage: "/images/gallery/6-sedenje.jpg",
+    content: `Človeško telo je ustvarjeno za gibanje, ne za 8-urno sedenje pred računalnikom.
 
 V salonu Dotik lahkotnosti se vsak dan srečujem s strankami, ki tožijo o bolečinah v križu, vratu in med lopaticami. Poglejmo si, zakaj do tega pride in kaj lahko storimo.
 
