@@ -13,6 +13,10 @@ Vse pomembnejše spremembe projekta "Dotik lahkotnosti" bodo zabeležene v tej d
 - Posodobljena vsebina bloga "Bolečine v hrbtu zaradi sedenja" v `lib/data.ts` (popravek uvoda).
 - Posodobljene poti do slik v `lib/data.ts` (za `6-sedenje.jpg`).
 - Posodobljen `todo.txt`.
+- Optimizirana "Hero" sekcija v `app/page.tsx`:
+    - Izboljšan kontrast besedila (dodana senca, temnejše ozadje `bg-black/35`).
+    - Popravljen spodnji preliv (gradient), da ne prekriva gumbov.
+    - Poenostavljena DOM struktura za boljšo zmogljivost.
 
 ### Odstranjeno
 - Stara slika `public/images/gallery/6.jpg`.

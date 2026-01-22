@@ -9,25 +9,24 @@ export default function Home() {
   return (
     <div className="flex flex-col gap-0 pb-0">
       {/* Hero Section */}
-      <section className="relative h-[85vh] w-full overflow-hidden flex items-center justify-center">
-        <div className="absolute inset-0 z-0">
-          <Image 
-            src="/hero.jpg" 
-            alt="Manca Bračun - Dotik Lahkotnosti" 
-            fill 
-            sizes="100vw"
-            className="object-cover opacity-90"
-            priority
-          />
-          <div className="absolute inset-0 bg-secondary/40 mix-blend-multiply" />
-          <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent/50" />
-        </div>
+      <section className="relative h-[85vh] w-full overflow-hidden flex items-center justify-center bg-background">
+        <Image 
+          src="/hero.jpg" 
+          alt="Manca Bračun - Dotik Lahkotnosti" 
+          fill 
+          sizes="100vw"
+          className="object-cover opacity-90"
+          priority
+        />
+        <div className="absolute inset-0 bg-secondary/40 mix-blend-multiply" />
+        <div className="absolute inset-0 bg-black/35" />
+        <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-background to-transparent" />
         
         <div className="container relative z-10 px-4 text-center pt-20">
-          <h1 className="font-display text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 drop-shadow-md leading-tight">
+          <h1 className="font-display text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 drop-shadow-lg leading-tight">
             Ko duša zaživi <br className="hidden md:block"/> in telo se sprosti
           </h1>
-          <p className="text-white/90 text-lg md:text-xl max-w-2xl mx-auto mb-10 font-light tracking-wide drop-shadow-sm">
+          <p className="text-white/95 text-lg md:text-xl max-w-2xl mx-auto mb-10 font-light tracking-wide drop-shadow-md">
             {siteConfig.description}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -37,7 +36,7 @@ export default function Home() {
               </Button>
             </Link>
             <Link href="/storitve">
-              <Button variant="outline" className="h-14 px-8 text-base border-white text-white hover:bg-white/10 hover:text-white bg-transparent backdrop-blur-sm">
+              <Button variant="outline" className="h-14 px-8 text-base border-white text-white hover:bg-white/10 hover:text-white bg-black/5 backdrop-blur-sm">
                 Naše storitve
               </Button>
             </Link>

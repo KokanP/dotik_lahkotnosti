@@ -1,76 +1,51 @@
- [HMR] connected
- [Fast Refresh] rebuilding
- Image with src "/images/gallery/1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-overrideMethod @ installHook.js:1
- Image with src "/images/gallery/2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-overrideMethod @ installHook.js:1
- Image with src "/images/gallery/3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-overrideMethod @ installHook.js:1
- Image with src "/images/gallery/4.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-overrideMethod @ installHook.js:1
- Image with src "/images/gallery/5.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-overrideMethod @ installHook.js:1
- Image with src "/images/gallery/6.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-overrideMethod @ installHook.js:1
- Image with src "/hero.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-overrideMethod @ installHook.js:1
- Image with src "/about.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-overrideMethod @ installHook.js:1
- Image with src "/images/headers/header-blog.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-overrideMethod @ installHook.js:1
- [Fast Refresh] done in 532ms
- Image with src "/images/headers/header-services.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-overrideMethod @ installHook.js:1
- [Fast Refresh] rebuilding
- [Fast Refresh] done in 432ms
- Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-overrideMethod @ installHook.js:1
- [Fast Refresh] rebuilding
- [Fast Refresh] done in 102ms
- [Fast Refresh] rebuilding
- [Fast Refresh] done in 1449ms
- [Fast Refresh] rebuilding
- [Fast Refresh] done in 130ms
- [Fast Refresh] rebuilding
- [Fast Refresh] done in 729ms
- [Fast Refresh] rebuilding
- [Fast Refresh] done in 2483ms
- [Fast Refresh] rebuilding
- [Fast Refresh] done in 235ms
- [Fast Refresh] rebuilding
- [Fast Refresh] done in 420ms
- [Fast Refresh] rebuilding
- [Fast Refresh] done in 108ms
- [Fast Refresh] rebuilding
- [Fast Refresh] done in 259ms
- [Fast Refresh] rebuilding
- [Fast Refresh] done in 104ms
- [Fast Refresh] rebuilding
- [Fast Refresh] done in 227ms
- [Fast Refresh] rebuilding
-forward-logs-shared.ts:95 [Fast Refresh] done in 278ms
+forward-logs-shared.ts:95 [HMR] connected
 forward-logs-shared.ts:95 [Fast Refresh] rebuilding
-forward-logs-shared.ts:95 [Fast Refresh] done in 591ms
-forward-logs-shared.ts:95 [Fast Refresh] rebuilding
-forward-logs-shared.ts:95 [Fast Refresh] done in 246ms
-forward-logs-shared.ts:95 [Fast Refresh] rebuilding
-forward-logs-shared.ts:95 [Fast Refresh] done in 161ms
-forward-logs-shared.ts:95 [Fast Refresh] rebuilding
-forward-logs-shared.ts:95 [Fast Refresh] done in 111ms
-forward-logs-shared.ts:95 [Fast Refresh] rebuilding
-forward-logs-shared.ts:95 [Fast Refresh] done in 101ms
-forward-logs-shared.ts:95 [Fast Refresh] rebuilding
-forward-logs-shared.ts:95 [Fast Refresh] done in 248ms
-forward-logs-shared.ts:95 [Fast Refresh] rebuilding
-forward-logs-shared.ts:95 [Fast Refresh] done in 177ms
-forward-logs-shared.ts:95 [Fast Refresh] rebuilding
-forward-logs-shared.ts:95 [Fast Refresh] done in 823ms
-forward-logs-shared.ts:95 [Fast Refresh] rebuilding
-forward-logs-shared.ts:95 [Fast Refresh] done in 124ms
-forward-logs-shared.ts:95 [Fast Refresh] rebuilding
-forward-logs-shared.ts:95 [Fast Refresh] done in 120ms
-forward-logs-shared.ts:95 [Fast Refresh] rebuilding
-forward-logs-shared.ts:95 [Fast Refresh] done in 290ms
-[Violation] 'setTimeout' handler took 57ms
-forward-logs.ts:104 [Violation] 'setInterval' handler took 142ms
-map.js:111 [Violation] Handling of 'wheel' input event was delayed for 789 ms due to main thread being busy. Consider marking event handler as 'passive' to make the page more responsive.
+forward-logs-shared.ts:95 [Fast Refresh] done in 516ms
+main.js:481 [Violation] Added non-passive event listener to a scroll-blocking 'touchmove' event. Consider marking event handler as 'passive' to make the page more responsive. See https://www.chromestatus.com/feature/5745543795965952
+div_changed @ main.js:481
+Zn @ main.js:193
+_.Xn.set @ main.js:379
+lda @ main.js:479
+_.qr @ main.js:258
+Pq @ init_embed.js:395
+b @ init_embed.js:402
+wk @ init_embed.js:194
+a @ init_embed.js:193
+main.js:481 [Violation] Added non-passive event listener to a scroll-blocking 'touchstart' event. Consider marking event handler as 'passive' to make the page more responsive. See https://www.chromestatus.com/feature/5745543795965952
+div_changed @ main.js:481
+Zn @ main.js:193
+_.Xn.set @ main.js:379
+lda @ main.js:479
+_.qr @ main.js:258
+Pq @ init_embed.js:395
+b @ init_embed.js:402
+wk @ init_embed.js:194
+a @ init_embed.js:193
+main.js:481 [Violation] Added non-passive event listener to a scroll-blocking 'touchmove' event. Consider marking event handler as 'passive' to make the page more responsive. See https://www.chromestatus.com/feature/5745543795965952
+div_changed @ main.js:481
+Zn @ main.js:193
+_.Xn.set @ main.js:379
+lda @ main.js:479
+_.qr @ main.js:258
+(anonymous) @ init_embed.js:294
+tp @ init_embed.js:290
+zp @ init_embed.js:294
+Bp @ init_embed.js:294
+Pq @ init_embed.js:397
+b @ init_embed.js:402
+wk @ init_embed.js:194
+a @ init_embed.js:193
+main.js:481 [Violation] Added non-passive event listener to a scroll-blocking 'touchstart' event. Consider marking event handler as 'passive' to make the page more responsive. See https://www.chromestatus.com/feature/5745543795965952
+div_changed @ main.js:481
+Zn @ main.js:193
+_.Xn.set @ main.js:379
+lda @ main.js:479
+_.qr @ main.js:258
+(anonymous) @ init_embed.js:294
+tp @ init_embed.js:290
+zp @ init_embed.js:294
+Bp @ init_embed.js:294
+Pq @ init_embed.js:397
+b @ init_embed.js:402
+wk @ init_embed.js:194
+a @ init_embed.js:193
