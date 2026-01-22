@@ -5,7 +5,7 @@ export const siteConfig = {
   description: "Salon za masažo in energijsko terapijo. Topel, umirjen in varen prostor, kjer se lahko povežete s seboj.",
   location: "Celeia park, Aškrčeva ulica 14, Celje",
   phone: "040 509 140",
-  email: "manca.bracun@gmail.com", // Placeholder based on common patterns, or use info@
+  email: "mancabracun2020@gmail.com",
   bookingUrl: "https://form.lime-booking.com/sl/biona/service?u=2152",
   socials: {
     facebook: "https://www.facebook.com/dotiklahkotnost",

@@ -12,6 +12,7 @@
 - **Galerija:**
   - Popravek osveževanja slike `6.jpg` (preimenovanje v `6-sedenje.jpg`).
 - **Vsebina:**
+  - Popravljen kontaktni email naslov na mancabracun2020@gmail.com.
   - Posodobljen `lib/data.ts` z novimi potmi in manjšimi popravki besedila.
 
 ## Odprte Zadeve / TODO
