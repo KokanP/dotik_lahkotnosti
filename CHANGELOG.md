@@ -17,6 +17,8 @@ Vse pomembnejše spremembe projekta "Dotik lahkotnosti" bodo zabeležene v tej d
     - Izboljšan kontrast besedila (dodana senca, temnejše ozadje `bg-black/35`).
     - Popravljen spodnji preliv (gradient), da ne prekriva gumbov.
     - Poenostavljena DOM struktura za boljšo zmogljivost.
+- Ustvarjena datoteka `GEMINI.md` za sledenje statusa projekta.
 
 ### Odstranjeno
 - Stara slika `public/images/gallery/6.jpg`.
+- Odstranjene začasne slike zaslona (`hero_picture.PNG`, `hero_picture2.PNG`).
