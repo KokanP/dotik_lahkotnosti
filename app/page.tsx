@@ -8,14 +8,6 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="flex flex-col gap-0 pb-0">
-      {/* Hidden Netlify Form Definition for Build Detection */}
-      <form name="contact" data-netlify="true" hidden>
-        <input type="text" name="name" />
-        <input type="email" name="email" />
-        <textarea name="message"></textarea>
-        <input type="hidden" name="form-name" value="contact" />
-      </form>
-
       {/* Hero Section */}
       <section className="relative h-[85vh] w-full overflow-hidden flex items-center justify-center bg-background">
         <Image 

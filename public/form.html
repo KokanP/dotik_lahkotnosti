@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Form Helper</title>
+</head>
+<body>
+    <!-- 
+      Ta datoteka služi izključno temu, da Netlify scanner najde definicijo forme.
+      Next.js build plugin v5 se pritožuje, če je forma v JSX, zato jo dajemo sem.
+    -->
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+        <input type="text" name="name" />
+        <input type="email" name="email" />
+        <textarea name="message"></textarea>
+        <input type="hidden" name="form-name" value="contact" />
+    </form>
+</body>
+</html>

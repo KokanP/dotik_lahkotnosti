@@ -15,7 +15,7 @@ export function ContactForm() {
     setLoading(true);
     setStatus(null);
 
-    fetch("/", {
+    fetch("/form.html", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: new URLSearchParams(formData as any).toString(),
