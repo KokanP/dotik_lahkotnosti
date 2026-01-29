@@ -2,6 +2,24 @@
 
 Vse pomembnejše spremembe projekta "Dotik lahkotnosti" bodo zabeležene v tej datoteki.
 
+## [Unreleased] - 2026-01-29
+
+### Dodano
+- **SEO & Social:** Open Graph in Twitter metadata v `app/layout.tsx` za boljši prikaz na družbenih omrežjih.
+- **Favicons:** Dodane ikone spletnega mesta (`favicon.ico`, `icon.png`, `apple-icon.png`) v `public/`.
+- **Nove strani:**
+  - `app/not-found.tsx`: Po meri narejena stran za napake 404.
+  - `app/politika-zasebnosti/page.tsx`: Stran s politiko zasebnosti (GDPR).
+- **Konfiguracija:** Dodana `netlify.toml` datoteka za kontrolo build procesa.
+- **Netlify Forms Helper:** Dodana `public/form.html` za pravilno detekcijo obrazcev na Netlify v5 vtičniku.
+
+### Spremenjeno
+- **Kontaktni obrazec:**
+  - Posodobljen `components/contact-form.tsx`: izboljšan UX (loading state, reset polj, časovno omejeno obvestilo o uspehu).
+  - Spremenjen `fetch` cilj na `/form.html` za obvod težav z Netlify pluginom.
+- **Noga (Footer):** Dodana povezava do Politike zasebnosti.
+- **Odstranjeno:** Odstranjeni vsi `data-netlify` atributi iz JSX kode, da se preprečijo napake pri gradnji (build).
+
 ## [Unreleased] - 2026-01-21
 
 ### Dodano
