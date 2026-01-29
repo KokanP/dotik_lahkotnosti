@@ -29,6 +29,7 @@ export function Footer() {
             <li><Link href="/storitve" className="hover:text-primary transition-colors">Storitve in Cenik</Link></li>
             <li><Link href="/galerija" className="hover:text-primary transition-colors">Galerija</Link></li>
             <li><Link href="/blog" className="hover:text-primary transition-colors">Blog</Link></li>
+            <li><Link href="/politika-zasebnosti" className="hover:text-primary transition-colors">Politika zasebnosti</Link></li>
           </ul>
         </div>
         

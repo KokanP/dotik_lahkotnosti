@@ -33,6 +33,20 @@ export const metadata: Metadata = {
     siteName: siteConfig.name,
     locale: 'sl_SI',
     type: 'website',
+    images: [
+      {
+        url: '/hero.jpg',
+        width: 1200,
+        height: 630,
+        alt: siteConfig.name,
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: siteConfig.name,
+    description: siteConfig.description,
+    images: ['/hero.jpg'],
   },
   robots: {
     index: true,
@@ -54,6 +68,13 @@ export default function RootLayout({
       <body
         className={`${playfair.variable} ${lato.variable} antialiased bg-background text-text flex flex-col min-h-screen`}
       >
+        {/* Hidden Netlify Form Definition for Build Detection */}
+        <form name="contact" data-netlify="true" hidden>
+          <input type="text" name="name" />
+          <input type="email" name="email" />
+          <textarea name="message"></textarea>
+        </form>
+        
         <JsonLd />
         <Header />
         <main className="flex-1">
