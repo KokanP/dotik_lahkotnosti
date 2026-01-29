@@ -5,19 +5,33 @@ import { useState } from "react";
 
 export function ContactForm() {
   const [status, setStatus] = useState<string | null>(null);
+  const [loading, setLoading] = useState(false);
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const form = e.currentTarget;
     const formData = new FormData(form);
 
+    setLoading(true);
+    setStatus(null);
+
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: new URLSearchParams(formData as any).toString(),
     })
-      .then(() => setStatus("Hvala! Vaše sporočilo je bilo poslano."))
-      .catch((error) => setStatus("Oprostite, prišlo je do napake."));
+      .then((res) => {
+        if (res.ok) {
+          setStatus("Hvala! Vaše sporočilo je bilo poslano.");
+          form.reset();
+          // Clear success message after 5 seconds
+          setTimeout(() => setStatus(null), 5000);
+        } else {
+          setStatus("Oprostite, prišlo je do napake pri pošiljanju.");
+        }
+      })
+      .catch((error) => setStatus("Oprostite, prišlo je do napake."))
+      .finally(() => setLoading(false));
   };
 
   return (
@@ -63,10 +77,16 @@ export function ContactForm() {
       </div>
       
       <div className="pt-2">
-        <Button type="submit" className="w-full">Pošlji sporočilo</Button>
+        <Button type="submit" className="w-full" disabled={loading}>
+          {loading ? "Pošiljanje..." : "Pošlji sporočilo"}
+        </Button>
       </div>
 
-      {status && <p className="text-center text-sm text-primary mt-2">{status}</p>}
+      {status && (
+        <p className={`text-center text-sm mt-2 ${status.includes("napake") ? "text-red-500" : "text-green-600"}`}>
+          {status}
+        </p>
+      )}
     </form>
   );
 }

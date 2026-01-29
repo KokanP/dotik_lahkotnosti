@@ -10,7 +10,7 @@ export default function NotFound() {
         Opravičujemo se, vendar stran, ki jo iščete, ne obstaja, je bila premaknjena ali pa ni več na voljo.
       </p>
       <Link href="/">
-        <Button size="lg">Nazaj na domačo stran</Button>
+        <Button className="h-12 px-8 text-base">Nazaj na domačo stran</Button>
       </Link>
     </div>
   );
