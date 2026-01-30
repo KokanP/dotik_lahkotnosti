@@ -9,7 +9,7 @@ export const siteConfig = {
   bookingUrl: "https://form.lime-booking.com/sl/biona/service?u=2152",
   socials: {
     facebook: "https://www.facebook.com/dotiklahkotnost",
-    instagram: "https://www.instagram.com/dotiklahkotnosti_mancabracun",
+    instagram: "https://www.instagram.com/dotik.lahkotnosti/",
     tiktok: "#"
   }
 };
