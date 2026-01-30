@@ -34,10 +34,10 @@ export default function CookieConsentConfig() {
             consentModal: {
               title: "Uporaba piškotkov",
               description:
-                "Za boljšo uporabniško izkušnjo in analizo prometa naša spletna stran uporablja piškotke. Z uporabo strani se strinjate z uporabo nujnih piškotkov.",
-              acceptAllBtn: "Sprejmi vse",
-              acceptNecessaryBtn: "Sprejmi samo nujne",
-              showPreferencesBtn: "Nastavitve",
+                "Spletna stran uporablja le nujne piškotke, ki so potrebni za nemoteno delovanje strani.",
+              acceptAllBtn: "V redu",
+              acceptNecessaryBtn: "", // Hide secondary button as it's redundant
+              showPreferencesBtn: "Podrobnosti",
               footer: `
                 <a href="/politika-zasebnosti">Politika zasebnosti</a>
               `,
