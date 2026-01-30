@@ -5,6 +5,7 @@ import { siteConfig } from "@/lib/data";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { JsonLd } from "@/components/json-ld";
+import CookieConsentConfig from "@/components/cookie-consent";
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -69,6 +70,7 @@ export default function RootLayout({
         className={`${playfair.variable} ${lato.variable} antialiased bg-background text-text flex flex-col min-h-screen`}
       >
         <JsonLd />
+        <CookieConsentConfig />
         <Header />
         <main className="flex-1">
           {children}
