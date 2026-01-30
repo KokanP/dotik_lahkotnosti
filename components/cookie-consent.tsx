@@ -14,7 +14,7 @@ export default function CookieConsentConfig() {
           equalWeightButtons: true,
           flipButtons: false,
         },
-        settingsModal: {
+        preferencesModal: {
           layout: "box",
           position: "left",
           equalWeightButtons: true,
@@ -37,14 +37,14 @@ export default function CookieConsentConfig() {
                 "Za boljšo uporabniško izkušnjo in analizo prometa naša spletna stran uporablja piškotke. Z uporabo strani se strinjate z uporabo nujnih piškotkov.",
               acceptAllBtn: "Sprejmi vse",
               acceptNecessaryBtn: "Sprejmi samo nujne",
-              showSettingsBtn: "Nastavitve",
+              showPreferencesBtn: "Nastavitve",
               footer: `
                 <a href="/politika-zasebnosti">Politika zasebnosti</a>
               `,
             },
-            settingsModal: {
+            preferencesModal: {
               title: "Nastavitve piškotkov",
-              saveSettinsBtn: "Shrani nastavitve",
+              savePreferencesBtn: "Shrani nastavitve",
               acceptAllBtn: "Sprejmi vse",
               acceptNecessaryBtn: "Sprejmi samo nujne",
               closeIconLabel: "Zapri",
