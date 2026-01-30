@@ -18,6 +18,7 @@ Vse pomembnejše spremembe projekta "Dotik lahkotnosti" bodo zabeležene v tej d
   - Posodobljen `components/contact-form.tsx`: izboljšan UX (loading state, reset polj, časovno omejeno obvestilo o uspehu).
   - Spremenjen `fetch` cilj na `/form.html` za obvod težav z Netlify pluginom.
 - **Noga (Footer):** Dodana povezava do Politike zasebnosti.
+- **Vsebina:** Popravljena povezava do Instagram profila v `lib/data.ts`.
 - **Odstranjeno:** Odstranjeni vsi `data-netlify` atributi iz JSX kode, da se preprečijo napake pri gradnji (build).
 
 ## [Unreleased] - 2026-01-21
