@@ -1,0 +1,93 @@
+6:12:37 PM: build-image version: 78d0fcff90a66ed4048cfb3252450561538f796a (noble-new-builds)
+6:12:37 PM: buildbot version: 56e11047b8d1bc23ddae3b2bf8c5bdf7faa6a220
+6:12:37 PM: Building without cache
+6:12:37 PM: Starting to prepare the repo for build
+6:12:37 PM: Preparing Git Reference refs/heads/master
+6:12:39 PM: Starting to install dependencies
+6:12:39 PM: mise ~/.config/mise/config.toml tools: python@3.14.2
+6:12:39 PM: mise ~/.config/mise/config.toml tools: ruby@3.4.8
+6:12:39 PM: mise ~/.config/mise/config.toml tools: go@1.25.6
+6:12:39 PM: v22.22.0 is already installed.
+6:12:40 PM: Now using node v22.22.0 (npm v10.9.4)
+6:12:40 PM: Enabling Node.js Corepack
+6:12:40 PM: No npm workspaces detected
+6:12:40 PM: Installing npm packages using npm version 10.9.4
+6:12:41 PM: added 1 package in 752ms
+6:12:41 PM: npm packages installed
+6:12:41 PM: Successfully installed dependencies
+6:12:41 PM: Detected 1 framework(s)
+6:12:41 PM: "next" at version "16.1.4"
+6:12:41 PM: Starting build script
+6:12:42 PM: Section completed: initializing
+6:12:44 PM: ​
+6:12:44 PM: Netlify Build                                                 
+6:12:44 PM: ────────────────────────────────────────────────────────────────
+6:12:44 PM: ​
+6:12:44 PM: ❯ Version
+6:12:44 PM:   @netlify/build 35.5.13
+6:12:44 PM: ​
+6:12:44 PM: ❯ Flags
+6:12:44 PM:   accountId: 697ccd896861282eb7438eae
+6:12:44 PM:   baseRelDir: true
+6:12:44 PM:   buildId: 697ce683578b4a00081b1142
+6:12:44 PM:   deployId: 697ce683578b4a00081b1144
+6:12:44 PM: ​
+6:12:44 PM: ❯ Current directory
+6:12:44 PM:   /opt/build/repo
+6:12:44 PM: ​
+6:12:44 PM: ❯ Config file
+6:12:44 PM:   /opt/build/repo/netlify.toml
+6:12:44 PM: ​
+6:12:44 PM: ❯ Context
+6:12:44 PM:   production
+6:12:44 PM: ​
+6:12:44 PM: ❯ Using Next.js Runtime - v5.15.7
+6:12:46 PM: Next.js cache restored
+6:12:46 PM: ​
+6:12:46 PM: build.command from netlify.toml                               
+6:12:46 PM: ────────────────────────────────────────────────────────────────
+6:12:46 PM: ​
+6:12:46 PM: $ npm run build
+6:12:46 PM: > dotik-lahkotnosti@0.1.0 build
+6:12:46 PM: > next build
+6:12:48 PM: ▲ Next.js 16.1.4 (Turbopack)
+6:12:48 PM:   Creating an optimized production build ...
+6:12:57 PM: ✓ Compiled successfully in 8.2s
+6:12:57 PM:   Running TypeScript ...
+6:13:00 PM: Failed during stage 'building site': Build script returned non-zero exit code: 2 (https://ntl.fyi/exit-code-2)
+6:13:00 PM: Failed to compile.
+6:13:00 PM: 
+6:13:00 PM: ./components/cookie-consent.tsx:17:9
+6:13:00 PM: Type error: Object literal may only specify known properties, and 'settingsModal' does not exist in type 'GuiOptions'.
+6:13:00 PM:   15 |           flipButtons: false,
+6:13:00 PM:   16 |         },
+6:13:00 PM: > 17 |         settingsModal: {
+6:13:00 PM:      |         ^
+6:13:00 PM:   18 |           layout: "box",
+6:13:00 PM:   19 |           position: "left",
+6:13:00 PM:   20 |           equalWeightButtons: true,
+6:13:00 PM: Next.js build worker exited with code: 1 and signal: null
+6:13:00 PM: ​
+6:13:00 PM: "build.command" failed                                        
+6:13:00 PM: ────────────────────────────────────────────────────────────────
+6:13:00 PM: ​
+6:13:00 PM:   Error message
+6:13:00 PM:   Command failed with exit code 1: npm run build (https://ntl.fyi/exit-code-1)
+6:13:00 PM: ​
+6:13:00 PM:   Error location
+6:13:00 PM:   In build.command from netlify.toml:
+6:13:00 PM:   npm run build
+6:13:00 PM: ​
+6:13:00 PM:   Resolved config
+6:13:00 PM:   build:
+6:13:00 PM:     command: npm run build
+6:13:00 PM:     commandOrigin: config
+6:13:00 PM:     publish: /opt/build/repo/.next
+6:13:00 PM:     publishOrigin: config
+6:13:00 PM:   plugins:
+6:13:00 PM:     - inputs: {}
+6:13:00 PM:       origin: config
+6:13:00 PM:       package: "@netlify/plugin-nextjs"
+6:13:00 PM: Build failed due to a user error: Build script returned non-zero exit code: 2
+6:13:00 PM: Failing build: Failed to build site
+6:13:01 PM: Finished processing build request in 23.938s

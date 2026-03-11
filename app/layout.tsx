@@ -6,6 +6,7 @@ import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { JsonLd } from "@/components/json-ld";
 import CookieConsentConfig from "@/components/cookie-consent";
+import Script from "next/script";
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -66,6 +67,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="sl" className="scroll-smooth" data-scroll-behavior="smooth">
+      <head>
+        {/* Google Analytics */}
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=G-G5PNP4MYKG`}
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-G5PNP4MYKG');
+          `}
+        </Script>
+      </head>
       <body
         className={`${playfair.variable} ${lato.variable} antialiased bg-background text-text flex flex-col min-h-screen`}
       >
