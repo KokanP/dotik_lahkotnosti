@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://dotik-lahkotnosti.si/sitemap.xml',
+    sitemap: 'https://mancabracun.si/sitemap.xml',
   }
 }

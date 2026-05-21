@@ -22,7 +22,7 @@ const lato = Lato({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://dotik-lahkotnosti.si'),
+  metadataBase: new URL('https://mancabracun.si'),
   title: {
     default: siteConfig.name,
     template: `%s | ${siteConfig.name}`,
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: siteConfig.name,
     description: siteConfig.description,
-    url: 'https://dotik-lahkotnosti.si',
+    url: 'https://mancabracun.si',
     siteName: siteConfig.name,
     locale: 'sl_SI',
     type: 'website',

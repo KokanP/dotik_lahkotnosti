@@ -3,7 +3,7 @@ export const siteConfig = {
   owner: "Manca Bračun",
   slogan: "Ko duša zaživi in telo se sprosti",
   description: "Salon za masažo in energijsko terapijo. Topel, umirjen in varen prostor, kjer se lahko povežete s seboj.",
-  location: "Celeia park, Aškrčeva ulica 14, Celje",
+  location: "Celeia park, Aškerčeva ulica 14, Celje",
   phone: "040 509 140",
   email: "mancabracun2020@gmail.com",
   bookingUrl: "https://form.lime-booking.com/sl/skinlab/service?u=2152",

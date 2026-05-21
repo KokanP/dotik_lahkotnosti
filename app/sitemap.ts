@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next'
 import { blogPosts } from '@/lib/data'
  
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://dotik-lahkotnosti.si'
+  const baseUrl = 'https://mancabracun.si'
   
   const routes = [
     '',

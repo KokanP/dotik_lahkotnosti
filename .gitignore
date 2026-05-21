@@ -39,3 +39,38 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Internal client & developer workspace documents
+/29-1-2026-report.docx
+/29-1-2026-report.md
+/CHANGELOG.md
+/GEMINI.md
+/Manca - opis.docx
+/Manca - opis.md
+/Navodila_Google_Analytics.docx
+/Navodila_Google_Analytics.md
+/Navodila_Google_Business.docx
+/Navodila_Google_Business.md
+/Navodila_za_prenos.docx
+/Navodila_za_prenos.md
+/cenik.txt
+/dopis_za_manco_ads.md
+/dotik lahkotnosti.docx
+/dotik lahkotnosti.md
+/email_manca.docx
+/email_manca.md
+/error-log.txt
+/ideje_domena.md
+/menu_error.PNG
+/mobile_console_output.txt
+/netlify_log.txt
+/predlog_ads_kampanja.txt
+/todo.txt
+
+# Raw photo shoots, generated assets & developer folders
+/business-profile/
+/nanobanana-output/
+/slike/
+/slike_april_2026/
+/temp_cookie_check/
+/dotik-lahkotnosti/

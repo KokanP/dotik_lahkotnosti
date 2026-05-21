@@ -5,7 +5,7 @@ import { ContactForm } from "./contact-form";
 
 export function LocationSection() {
   return (
-    <section className="section-padding bg-accent/20">
+    <section id="kontakt" className="section-padding bg-accent/20 scroll-mt-20">
       <div className="container">
         <div className="grid lg:grid-cols-2 gap-12 items-start">
           {/* Contact Info & Form */}
@@ -85,7 +85,7 @@ export function LocationSection() {
             
             <div className="h-[400px] w-full rounded-xl overflow-hidden shadow-lg border border-white/50 bg-white">
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2766.123456789!2d15.2654321!3d46.2345678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47657962102149e1%3A0x0!2sA%C5%A1kr%C4%8Deva%20ulica%2014%2C%203000%20Celje!5e0!3m2!1ssl!2ssi!4v1600000000000!5m2!1ssl!2ssi" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2766.1718873291244!2d15.266205776991054!3d46.233519881515286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765709cf8f9bfb1%3A0xf63eb4c0b4306ba0!2sCeleiapark!5e0!3m2!1ssl!2ssi!4v1716300000000!5m2!1ssl!2ssi" 
                 width="100%" 
                 height="100%" 
                 style={{ border: 0 }} 

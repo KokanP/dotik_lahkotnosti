@@ -5,14 +5,14 @@ export function JsonLd() {
     "@context": "https://schema.org",
     "@type": "HealthAndBeautyBusiness",
     "name": siteConfig.name,
-    "image": "https://dotik-lahkotnosti.si/hero.jpg",
-    "@id": "https://dotik-lahkotnosti.si",
-    "url": "https://dotik-lahkotnosti.si",
+    "image": "https://mancabracun.si/hero.jpg",
+    "@id": "https://mancabracun.si",
+    "url": "https://mancabracun.si",
     "telephone": siteConfig.phone,
     "email": siteConfig.email,
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Aškrčeva ulica 14",
+      "streetAddress": "Aškerčeva ulica 14",
       "addressLocality": "Celje",
       "postalCode": "3000",
       "addressCountry": "SI"
