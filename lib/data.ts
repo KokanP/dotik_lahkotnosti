@@ -22,79 +22,79 @@ export interface GalleryImage {
 
 export const galleryImages: GalleryImage[] = [
   {
-    src: "/images/gallery/manca_1.webp",
-    category: "manca",
-    alt: "Manca Bračun - Portret"
-  },
-  {
     src: "/images/gallery/manca_2.webp",
     category: "manca",
-    alt: "Energijska terapija"
+    alt: "Manca Bračun - energijska terapevtka"
   },
   {
     src: "/images/gallery/manca_3.webp",
     category: "manca",
-    alt: "Sprostitvena antistresna masaža"
+    alt: "Sprostitvena masaža v salonu"
   },
   {
     src: "/images/gallery/manca_4.webp",
     category: "manca",
-    alt: "Masaža in energijsko delo"
+    alt: "Manca Bračun - masaža in sprostitev"
   },
   {
     src: "/images/gallery/manca_5.webp",
     category: "manca",
-    alt: "Svetovanje in podpora stranki"
+    alt: "Manca Bračun - svetovanje in pogovor"
   },
   {
     src: "/images/gallery/manca_6.webp",
     category: "manca",
-    alt: "Izvajanje reiki terapije"
+    alt: "Manca Bračun - reiki energijsko delo"
   },
   {
     src: "/images/gallery/manca_7.webp",
     category: "manca",
-    alt: "Manca med delom v salonu"
+    alt: "Manca med izvajanjem terapije"
   },
   {
     src: "/images/gallery/manca_8.webp",
     category: "manca",
-    alt: "Terapevtska obravnava"
+    alt: "Terapevtski dotik in sprostitev"
   },
   {
     src: "/images/gallery/manca_9.webp",
     category: "manca",
-    alt: "Topel sprejem stranke"
+    alt: "Topel sprejem in nasmeh terapevtke Mance"
+  },
+  {
+    src: "/images/gallery/manca_1.webp",
+    category: "prostor",
+    alt: "Urejena miza za masažo in terapijo"
   },
   {
     src: "/images/gallery/prostor_1.webp",
     category: "prostor",
-    alt: "Masažna miza v toplem ambientu"
+    alt: "Topel in varen ambient salona"
   },
   {
     src: "/images/gallery/prostor_2.webp",
     category: "prostor",
-    alt: "Detajli in dekoracija salona"
+    alt: "Dekorativni detajli za umiritev uma"
   },
   {
     src: "/images/gallery/prostor_3.webp",
     category: "prostor",
-    alt: "Cvetlični aranžmaji in kristali"
+    alt: "Kristali in naravni elementi v salonu"
   },
   {
     src: "/images/gallery/prostor_4.webp",
     category: "prostor",
-    alt: "Umirjena osvetlitev za popolno sprostitev"
+    alt: "Umirjena in mehka osvetlitev prostora"
   },
   {
     src: "/images/gallery/prostor_5.webp",
     category: "prostor",
-    alt: "Kotiček za pogovor in sprostitev"
+    alt: "Vhod v salon Dotik lahkotnosti"
   },
   {
     src: "/images/gallery/prostor_6.webp",
     category: "prostor",
-    alt: "Sveče in olja za terapijo"
+    alt: "Recepcija in sprejemni kotiček salona"
   }
 ];
 
