@@ -14,14 +14,90 @@ export const siteConfig = {
   }
 };
 
-export const galleryImages = [
-  "/images/gallery/1.jpg",
-  "/images/gallery/2.jpg",
-  "/images/gallery/3.jpg",
-  "/images/gallery/4.jpg",
-  "/images/gallery/5.jpg",
-  "/images/gallery/6-sedenje.jpg",
+export interface GalleryImage {
+  src: string;
+  category: "manca" | "prostor";
+  alt: string;
+}
+
+export const galleryImages: GalleryImage[] = [
+  {
+    src: "/images/gallery/manca_1.webp",
+    category: "manca",
+    alt: "Manca Bračun - Portret"
+  },
+  {
+    src: "/images/gallery/manca_2.webp",
+    category: "manca",
+    alt: "Energijska terapija"
+  },
+  {
+    src: "/images/gallery/manca_3.webp",
+    category: "manca",
+    alt: "Sprostitvena antistresna masaža"
+  },
+  {
+    src: "/images/gallery/manca_4.webp",
+    category: "manca",
+    alt: "Masaža in energijsko delo"
+  },
+  {
+    src: "/images/gallery/manca_5.webp",
+    category: "manca",
+    alt: "Svetovanje in podpora stranki"
+  },
+  {
+    src: "/images/gallery/manca_6.webp",
+    category: "manca",
+    alt: "Izvajanje reiki terapije"
+  },
+  {
+    src: "/images/gallery/manca_7.webp",
+    category: "manca",
+    alt: "Manca med delom v salonu"
+  },
+  {
+    src: "/images/gallery/manca_8.webp",
+    category: "manca",
+    alt: "Terapevtska obravnava"
+  },
+  {
+    src: "/images/gallery/manca_9.webp",
+    category: "manca",
+    alt: "Topel sprejem stranke"
+  },
+  {
+    src: "/images/gallery/prostor_1.webp",
+    category: "prostor",
+    alt: "Masažna miza v toplem ambientu"
+  },
+  {
+    src: "/images/gallery/prostor_2.webp",
+    category: "prostor",
+    alt: "Detajli in dekoracija salona"
+  },
+  {
+    src: "/images/gallery/prostor_3.webp",
+    category: "prostor",
+    alt: "Cvetlični aranžmaji in kristali"
+  },
+  {
+    src: "/images/gallery/prostor_4.webp",
+    category: "prostor",
+    alt: "Umirjena osvetlitev za popolno sprostitev"
+  },
+  {
+    src: "/images/gallery/prostor_5.webp",
+    category: "prostor",
+    alt: "Kotiček za pogovor in sprostitev"
+  },
+  {
+    src: "/images/gallery/prostor_6.webp",
+    category: "prostor",
+    alt: "Sveče in olja za terapijo"
+  }
 ];
+
 
 export const bioData = {
   title: "Kdo sem?",
