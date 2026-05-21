@@ -27,7 +27,7 @@ export default function ServicesPage() {
       <PageHeader 
         title="Storitve in Cenik" 
         description="Izberite pot do boljšega počutja. Vsaka terapija je prilagojena vašim potrebam."
-        imageSrc="/images/headers/header-services.jpg"
+        imageSrc="/images/headers/header-services.webp"
       />
 
       <div className="container mx-auto px-4 max-w-4xl space-y-20 section-padding-sm">

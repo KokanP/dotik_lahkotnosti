@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: '/hero.jpg',
+        url: '/hero.webp',
         width: 1200,
         height: 630,
         alt: siteConfig.name,
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: siteConfig.name,
     description: siteConfig.description,
-    images: ['/hero.jpg'],
+    images: ['/hero.webp'],
   },
   robots: {
     index: true,

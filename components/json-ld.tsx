@@ -5,7 +5,7 @@ export function JsonLd() {
     "@context": "https://schema.org",
     "@type": "HealthAndBeautyBusiness",
     "name": siteConfig.name,
-    "image": "https://mancabracun.si/hero.jpg",
+    "image": "https://mancabracun.si/hero.webp",
     "@id": "https://mancabracun.si",
     "url": "https://mancabracun.si",
     "telephone": siteConfig.phone,

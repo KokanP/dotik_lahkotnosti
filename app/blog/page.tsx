@@ -16,7 +16,7 @@ export default function BlogPage() {
       <PageHeader 
         title="Blog" 
         description="Nasveti, razmišljanja in navdih za vaše dobro počutje." 
-        imageSrc="/images/headers/header-blog.jpg" 
+        imageSrc="/images/headers/header-blog.webp" 
       />
 
       <div className="container mx-auto px-4 max-w-4xl section-padding-sm">

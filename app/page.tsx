@@ -11,7 +11,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative h-[85vh] w-full overflow-hidden flex items-center justify-center bg-background">
         <Image 
-          src="/hero.jpg" 
+          src="/hero.webp" 
           alt="Manca Bračun - Dotik Lahkotnosti" 
           fill 
           sizes="100vw"
@@ -48,7 +48,7 @@ export default function Home() {
       <section className="section-padding container mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
         <div className="order-2 md:order-1 relative aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl rotate-1 hover:rotate-0 transition-transform duration-500">
            <Image 
-            src="/about.jpg" 
+            src="/about.webp" 
             alt="Manca Bračun" 
             fill 
             sizes="(max-width: 768px) 100vw, 50vw"

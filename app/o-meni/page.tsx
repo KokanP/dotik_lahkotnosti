@@ -15,7 +15,7 @@ export default function AboutPage() {
       <PageHeader 
         title={bioData.title}
         description="Moje delo ni le poklic, ampak klic srca."
-        imageSrc="/images/headers/header-about.jpg"
+        imageSrc="/images/headers/header-about.webp"
       />
 
       <div className="container mx-auto px-4 section-padding-sm">
@@ -34,7 +34,7 @@ export default function AboutPage() {
           <div className="relative space-y-8">
             <div className="relative aspect-square rounded-2xl overflow-hidden shadow-xl">
                <Image 
-                src="/about.jpg" 
+                src="/about.webp" 
                 alt={bioData.name}
                 fill 
                 sizes="(max-width: 768px) 100vw, 50vw"

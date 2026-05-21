@@ -14,7 +14,7 @@ export default function GalleryPage() {
       <PageHeader 
         title="Galerija" 
         description="Utrinki iz našega toplega in varnega prostora." 
-        imageSrc="/hero.jpg" 
+        imageSrc="/hero.webp" 
       />
 
       <div className="section-padding-sm">

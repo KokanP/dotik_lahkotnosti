@@ -22,6 +22,11 @@ export interface GalleryImage {
 
 export const galleryImages: GalleryImage[] = [
   {
+    src: "/images/gallery/manca_1.webp",
+    category: "manca",
+    alt: "Manca Bračun - Dotik Lahkotnosti"
+  },
+  {
     src: "/images/gallery/manca_2.webp",
     category: "manca",
     alt: "Manca Bračun - Dotik Lahkotnosti"
@@ -57,16 +62,6 @@ export const galleryImages: GalleryImage[] = [
     alt: "Manca Bračun - Dotik Lahkotnosti"
   },
   {
-    src: "/images/gallery/manca_9.webp",
-    category: "manca",
-    alt: "Manca Bračun - Dotik Lahkotnosti"
-  },
-  {
-    src: "/images/gallery/manca_1.webp",
-    category: "prostor",
-    alt: "Salon Dotik Lahkotnosti - Ambient"
-  },
-  {
     src: "/images/gallery/prostor_1.webp",
     category: "prostor",
     alt: "Salon Dotik Lahkotnosti - Ambient"
@@ -93,6 +88,11 @@ export const galleryImages: GalleryImage[] = [
   },
   {
     src: "/images/gallery/prostor_6.webp",
+    category: "prostor",
+    alt: "Salon Dotik Lahkotnosti - Ambient"
+  },
+  {
+    src: "/images/gallery/prostor_7.webp",
     category: "prostor",
     alt: "Salon Dotik Lahkotnosti - Ambient"
   }
@@ -258,7 +258,7 @@ export const blogPosts = [
     title: "Zakaj je sprostitev ključna za zdravje?",
     excerpt: "V današnjem hitrem tempu pogosto pozabimo na počitek. Raziskujemo, kako kronični stres vpliva na telo in zakaj je zavestna sprostitev nujna naložba v vašo prihodnost.",
     date: "2025-11-05",
-    featuredImage: "/images/gallery/1.jpg",
+    featuredImage: "/images/blog/blog_1.webp",
     content: `Živimo v dobi, kjer je "zaposlenost" postala statusni simbol. Če nismo v pogonu od jutra do večera, se pogosto počutimo krive ali neproduktivne. A naše telo ni stroj, ki bi lahko deloval v nedogled brez vzdrževanja. Pravzaprav je sprostitev biološka nuja, ki omogoča, da sploh lahko preživimo in delujemo optimalno.
 
 V tem članku bomo raziskali, kaj se dogaja v telesu, ko smo pod stresom, zakaj je "odklop" ključnega pomena za naše fizično in mentalno zdravje ter kako lahko masaža in energijske tehnike pomagajo pri ponovni vzpostavitvi ravnovesja.
@@ -317,7 +317,7 @@ Ne čakajte, da telo pregori. Poslušajte ga, ko vam šepeta, da ne bo treba pos
     title: "Kaj je Reiki in kako deluje?",
     excerpt: "Energijska metoda, ki pomaga pri vzpostavljanju ravnovesja. Spoznajte, kako lahko Reiki pomaga pri čustvenih in fizičnih blokadah in zakaj je to ena najbolj priljubljenih metod samozdravljenja.",
     date: "2025-11-18",
-    featuredImage: "/images/gallery/2.jpg",
+    featuredImage: "/images/blog/blog_2.webp",
     content: `Reiki je beseda, ki jo v zadnjih letih slišimo vse pogosteje, a kljub njeni priljubljenosti ostaja okoli nje veliko nejasnosti in mistike. Je to masaža? Je to vera? Je to le placebo?
 
 V tem obsežnem zapisu bomo razjasnili, kaj točno Reiki je, od kod izvira, kako poteka terapija in zakaj je tako učinkovit pri sodobnih težavah, kot so izgorelost, anksioznost in kronične bolečine.
@@ -396,7 +396,7 @@ Reiki ni čudežna tabletka, ki bo čez noč rešila vse vaše težave. Je pa iz
     title: "Zdravilna moč dotika",
     excerpt: "Dotik je ena naših osnovnih potreb. Kako masaža vpliva na naše hormonsko ravnovesje in zakaj v digitalni dobi nujno potrebujemo fizični stik.",
     date: "2025-11-29",
-    featuredImage: "/images/gallery/3.jpg",
+    featuredImage: "/images/blog/blog_3.webp",
     content: `V svetu, kjer smo nenehno povezani digitalno, postajamo paradoksalno vse bolj odtujeni fizično. Dotik, ki je bil tisočletja osnova človeške komunikacije in tolažbe, počasi izginja iz našega vsakdana. A znanost je jasna: ljudje smo "ožičeni" za dotik. Brez njega ne moremo uspevati.
 
 V tem članku bomo raziskali biologijo dotika, kaj se zgodi v naših možganih, ko nas nekdo objame ali zmasira, in zakaj je profesionalna masaža več kot le sprostitev mišic.
@@ -455,7 +455,7 @@ Ne podcenjujte moči dotika. V svetu, ki postaja vse bolj hladen in digitalen, j
     title: "Maderoterapija: Naravna pot do preoblikovanega telesa",
     excerpt: "Spoznajte tehniko z lesenimi valjčki, ki je obnorela svet. Kako deluje, zakaj je tako učinkovita v boju proti celulitu in kaj lahko pričakujete od tretmaja.",
     date: "2025-12-06",
-    featuredImage: "/images/gallery/4.jpg",
+    featuredImage: "/images/blog/blog_4.webp",
     content: `Se borite s trdovratnim celulitom, ki ne izgine kljub telovadbi in zdravi prehrani? Imate občutek težkih, oteklih nog? Maderoterapija je morda rešitev, ki jo iščete. Ta tehnika, ki izvira iz Kolumbije ("madera" v španščini pomeni les), je v zadnjih letih postala zlati standard za naravno preoblikovanje telesa.
 
 V salonu Dotik lahkotnosti izvajamo klasično in brazilsko maderoterapijo. Pa poglejmo podrobneje, zakaj je ta metoda tako posebna.
@@ -515,7 +515,7 @@ Maderoterapija je več kot le lepotni tretma. Je razstrupljanje telesa, ki vam p
     title: "Access Bars: Resetirajte svoj um",
     excerpt: "Imate občutek, da je vaša glava polna nepotrebnih misli? Access Bars terapija je kot tipka 'delete' za vaše preobremenjene možgane.",
     date: "2025-12-15",
-    featuredImage: "/images/gallery/5.jpg",
+    featuredImage: "/images/blog/blog_5.webp",
     content: `Si predstavljate, da bi lahko v svoji glavi pritisnili tipko "Delete" in izbrisali vse tiste datoteke, ki vas upočasnjujejo – skrbi, strahove, omejujoča prepričanja in nenehni notranji dialog? Točno to ponuja Access Bars terapija.
 
 V svetu energijskih tehnik je Access Bars ena najbolj praktičnih in hitro delujočih metod za doseganje mentalne jasnosti in globoke sprostitve.
@@ -574,7 +574,7 @@ Ker je metoda neinvazivna, je primerna za vse.
     title: "Bolečine v hrbtu zaradi sedenja? Rešitev obstaja.",
     excerpt: "Sodobni način življenja nas sili v dolgotrajno sedenje. Spoznajte anatomijo sedenja, preproste vaje za pisarno in kako vam lahko terapevtka masaža hrbta vrne gibljivost.",
     date: "2025-12-22",
-    featuredImage: "/images/gallery/6-sedenje.jpg",
+    featuredImage: "/images/blog/blog_6.webp",
     content: `Človeško telo je ustvarjeno za gibanje, ne za 8-urno sedenje pred računalnikom.
 
 V salonu Dotik lahkotnosti se vsak dan srečujem s strankami, ki tožijo o bolečinah v križu, vratu in med lopaticami. Poglejmo si, zakaj do tega pride in kaj lahko storimo.
@@ -625,7 +625,7 @@ V salonu Dotik lahkotnosti se bomo posvetili vašim specifičnim težavam in vam
     title: "Ročna limfna drenaža: Razstrupite svoje telo",
     excerpt: "Zakaj je limfni sistem pomemben in kako mu lahko pomagamo z nežno masažo. Idealno za otekle noge, okrevanje po operacijah in krepitev imunosti.",
     date: "2026-01-04",
-    featuredImage: "/hero.jpg",
+    featuredImage: "/images/blog/blog_7.webp",
     content: `Limfni sistem je pogosto spregledan junak našega telesa. Medtem ko vsi vemo, kaj dela srce, je limfa za mnoge skrivnost. A prav limfni sistem je tisti, ki deluje kot čistilna naprava in varnostna služba našega organizma.
 
 Ročna limfna drenaža (RLD) je ena najbolj nežnih, a hkrati najbolj medicinsko utemeljenih tehnik, ki jih ponujamo. Poglejmo, zakaj je tako pomembna.
@@ -685,7 +685,7 @@ Ročna limfna drenaža je investicija v vaše zdravje. Je kot generalno čišče
     title: "Meditacija: Potovanje k sebi",
     excerpt: "V hrupu zunanjega sveta je tišina v nas najbolj dragocena. Razbijamo mite o meditaciji in vam ponujamo preprosto vajo za začetek.",
     date: "2026-01-10",
-    featuredImage: "/about.jpg",
+    featuredImage: "/images/blog/blog_8.webp",
     content: `Beseda meditacija pogosto vzbudi podobo meniha, ki v lotusovem položaju sedi na vrhu gore in ne misli na nič. A meditacija je v resnici veliko bolj dostopna in praktična veščina, ki jo v današnjem kaotičnem svetu nujno potrebujemo.
 
 V Dotiku lahkotnosti verjamemo, da je duševni mir temelj vsega. Brez njega tudi sproščeno telo ne zdrži dolgo.
@@ -733,7 +733,7 @@ Ni treba, da meditirate eno uro. Že 5 do 10 minut na dan naredi ogromno razliko
     title: "Tudi otroci potrebujejo sprostitev",
     excerpt: "Šola, krožki, ekrani... Otroci so danes pod velikim pritiskom. Preberite, kako lahko masaža in Reiki pomagata otrokom z ADHD, anksioznostjo ali pa le preobremenjenim malčkom.",
     date: "2026-01-16",
-    featuredImage: "/images/headers/header-blog.jpg",
+    featuredImage: "/images/blog/blog_9.webp",
     content: `Pogosto zmotno mislimo, da je otroštvo brezskrbno. A današnji otroci so pod večjim pritiskom kot kadarkoli prej. Polni urniki, pričakovanja v šoli, nenehna stimulacija z ekrani in hitro spreminjajoč svet v njih povzročajo stres, ki ga pogosto ne znajo ubesediti.
 
 Ta stres se kaže kot:
@@ -782,7 +782,7 @@ Največ, kar lahko naredite doma, je, da otroku namenite **fizični stik**. Ne l
     title: "Zimsko razvajanje in novi začetki",
     excerpt: "Januar je čas za nove cilje, a ne pozabite na nežnost do sebe. Kako pozimi poskrbeti za svojo energijo in zakaj 'novoletne zaobljube' pogosto ne delujejo?",
     date: "2026-01-21",
-    featuredImage: "/images/headers/header-services.jpg",
+    featuredImage: "/images/blog/blog_8.webp",
     content: `Dobrodošli v letu 2026! Januar je mesec dveh obrazov. Po eni strani nas mediji bombardirajo z "novim jazom", dietami, cilji in produktivnostjo. Po drugi strani pa je zunaj zima – čas, ko narava počiva, spi in zbira moči.
 
 To nasprotje med družbenim pritiskom ("Dajmo, akcija!") in biološkim ritmom ("Počivaj, hladno je.") nas pogosto izčrpa že v prvih tednih leta.
