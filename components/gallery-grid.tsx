@@ -111,16 +111,10 @@ export function GalleryGrid({ images }: GalleryGridProps) {
               priority={index < 3}
             />
             {/* Glassmorphic Overlay on Hover */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
-              <div className="absolute top-4 right-4 bg-white/25 backdrop-blur-md rounded-full p-2 text-white border border-white/20 transform translate-y-[-10px] group-hover:translate-y-0 transition-transform duration-300 shadow-lg">
-                <Maximize2 className="w-4 h-4" />
+            <div className="absolute inset-0 bg-black/35 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+              <div className="bg-white/20 backdrop-blur-md rounded-full p-4 text-white border border-white/20 transform scale-90 group-hover:scale-100 transition-all duration-300 shadow-lg">
+                <Maximize2 className="w-5 h-5 animate-pulse" />
               </div>
-              <span className="text-xs uppercase tracking-widest text-accent/80 font-bold mb-1">
-                {image.category === "manca" ? "Manca" : "Prostor"}
-              </span>
-              <p className="text-white font-medium text-lg leading-tight transform translate-y-[10px] group-hover:translate-y-0 transition-transform duration-300 drop-shadow-md">
-                {image.alt}
-              </p>
             </div>
           </div>
         ))}
@@ -173,9 +167,6 @@ export function GalleryGrid({ images }: GalleryGridProps) {
               className="mt-4 text-center text-white/90 space-y-1 w-full max-w-2xl px-4"
               onClick={(e) => e.stopPropagation()}
             >
-              <p className="text-lg font-medium tracking-wide drop-shadow-md">
-                {filteredImages[selectedImageIndex].alt}
-              </p>
               <div className="flex items-center justify-center gap-3 text-xs text-white/60">
                 <span className="uppercase tracking-widest font-semibold px-2 py-0.5 bg-white/10 rounded">
                   {filteredImages[selectedImageIndex].category === "manca" ? "Manca" : "Prostor"}

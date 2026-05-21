@@ -24,77 +24,77 @@ export const galleryImages: GalleryImage[] = [
   {
     src: "/images/gallery/manca_2.webp",
     category: "manca",
-    alt: "Manca Bračun - energijska terapevtka"
+    alt: "Manca Bračun - Dotik Lahkotnosti"
   },
   {
     src: "/images/gallery/manca_3.webp",
     category: "manca",
-    alt: "Sprostitvena masaža v salonu"
+    alt: "Manca Bračun - Dotik Lahkotnosti"
   },
   {
     src: "/images/gallery/manca_4.webp",
     category: "manca",
-    alt: "Manca Bračun - masaža in sprostitev"
+    alt: "Manca Bračun - Dotik Lahkotnosti"
   },
   {
     src: "/images/gallery/manca_5.webp",
     category: "manca",
-    alt: "Manca Bračun - svetovanje in pogovor"
+    alt: "Manca Bračun - Dotik Lahkotnosti"
   },
   {
     src: "/images/gallery/manca_6.webp",
     category: "manca",
-    alt: "Manca Bračun - reiki energijsko delo"
+    alt: "Manca Bračun - Dotik Lahkotnosti"
   },
   {
     src: "/images/gallery/manca_7.webp",
     category: "manca",
-    alt: "Manca med izvajanjem terapije"
+    alt: "Manca Bračun - Dotik Lahkotnosti"
   },
   {
     src: "/images/gallery/manca_8.webp",
     category: "manca",
-    alt: "Terapevtski dotik in sprostitev"
+    alt: "Manca Bračun - Dotik Lahkotnosti"
   },
   {
     src: "/images/gallery/manca_9.webp",
     category: "manca",
-    alt: "Topel sprejem in nasmeh terapevtke Mance"
+    alt: "Manca Bračun - Dotik Lahkotnosti"
   },
   {
     src: "/images/gallery/manca_1.webp",
     category: "prostor",
-    alt: "Urejena miza za masažo in terapijo"
+    alt: "Salon Dotik Lahkotnosti - Ambient"
   },
   {
     src: "/images/gallery/prostor_1.webp",
     category: "prostor",
-    alt: "Topel in varen ambient salona"
+    alt: "Salon Dotik Lahkotnosti - Ambient"
   },
   {
     src: "/images/gallery/prostor_2.webp",
     category: "prostor",
-    alt: "Dekorativni detajli za umiritev uma"
+    alt: "Salon Dotik Lahkotnosti - Ambient"
   },
   {
     src: "/images/gallery/prostor_3.webp",
     category: "prostor",
-    alt: "Kristali in naravni elementi v salonu"
+    alt: "Salon Dotik Lahkotnosti - Ambient"
   },
   {
     src: "/images/gallery/prostor_4.webp",
     category: "prostor",
-    alt: "Umirjena in mehka osvetlitev prostora"
+    alt: "Salon Dotik Lahkotnosti - Ambient"
   },
   {
     src: "/images/gallery/prostor_5.webp",
     category: "prostor",
-    alt: "Vhod v salon Dotik lahkotnosti"
+    alt: "Salon Dotik Lahkotnosti - Ambient"
   },
   {
     src: "/images/gallery/prostor_6.webp",
     category: "prostor",
-    alt: "Recepcija in sprejemni kotiček salona"
+    alt: "Salon Dotik Lahkotnosti - Ambient"
   }
 ];
 
