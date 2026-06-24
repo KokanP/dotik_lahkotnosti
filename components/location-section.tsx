@@ -14,7 +14,7 @@ export function LocationSection() {
               <span className="text-primary text-sm font-bold tracking-widest uppercase">Kontakt</span>
               <h2 className="text-3xl font-display mt-2 mb-6">Pišite nam ali nas obiščite</h2>
               <p className="text-text/70 mb-8">
-                Veseli bomo vašega obiska v našem salonu v Celeia parku. Za rezervacijo termina nas pokličite ali uporabite spletni obrazec.
+                Veseli bomo vašega obiska v našem salonu v Tehnopolis stavbi. Za rezervacijo termina nas pokličite ali uporabite spletni obrazec.
               </p>
               
               <div className="space-y-4 mb-8">
@@ -25,7 +25,7 @@ export function LocationSection() {
                   <div>
                     <h4 className="font-bold text-secondary">Lokacija</h4>
                     <p className="text-sm text-text/70">{siteConfig.location}</p>
-                    <p className="text-xs text-text/50 mt-1">Parkiranje v parkirni hiši Celeia park</p>
+                    <p className="text-xs text-text/50 mt-1">Brezplačno parkiranje pred stavbo</p>
                   </div>
                 </div>
                 
@@ -73,19 +73,19 @@ export function LocationSection() {
             <div className="relative aspect-video w-full rounded-xl overflow-hidden shadow-lg border border-white/50">
                <Image 
                  src="/images/location.jpg" 
-                 alt="Poslovno trgovski center Celeia park"
+                 alt="Stavba Tehnopolis"
                  fill
                  sizes="(max-width: 1024px) 100vw, 50vw"
                  className="object-cover"
                />
                <div className="absolute bottom-0 left-0 right-0 bg-black/60 text-white p-4 text-xs">
-                 Poslovno trgovski center Celeia park
+                 Stavba Tehnopolis
                </div>
             </div>
             
             <div className="h-[400px] w-full rounded-xl overflow-hidden shadow-lg border border-white/50 bg-white">
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2766.1718873291244!2d15.266205776991054!3d46.233519881515286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765709cf8f9bfb1%3A0xf63eb4c0b4306ba0!2sCeleiapark!5e0!3m2!1ssl!2ssi!4v1716300000000!5m2!1ssl!2ssi" 
+                src="https://maps.google.com/maps?q=Tehnopolis%20Celje%2C%20Kidri%C4%8Deva%20ulica%2024a%2C%20Celje&t=&z=16&ie=UTF8&iwloc=&output=embed" 
                 width="100%" 
                 height="100%" 
                 style={{ border: 0 }} 

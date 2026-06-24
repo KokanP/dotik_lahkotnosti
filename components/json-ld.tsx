@@ -12,7 +12,7 @@ export function JsonLd() {
     "email": siteConfig.email,
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Aškerčeva ulica 14",
+      "streetAddress": "Kidričeva ulica 24a",
       "addressLocality": "Celje",
       "postalCode": "3000",
       "addressCountry": "SI"
